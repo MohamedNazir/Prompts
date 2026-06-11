@@ -1,1 +1,23 @@
-Transform my uploaded photo into a cinematic futuristic travel visualization while preserving the original composition, subject, camera angle, perspective, and all real elements. Enhance only-do not replace or alter existing content. Add a hyper-realistic AR holographic travel HUD integrated into the environment, visualizing air travel from Vienna to Paris. Include: * Glowing amber/gold holographic map overlay * Route: Vienna (VIE) → Paris (CDG) * Airport markers, destination pins, and flight path arc * Travel data panels: * Departure: Vienna International Airport (VIE) * Arrival: Paris Charles de Gaulle (CDG) * Distance: 1,035 km * Flight Time: 2h 05m * Aircraft: Airbus A320 * Altitude: 35,000 ft * Speed: 820 km/h * Status: En Route Style: * Premium sci-fi HUD (Apple Vision Pro x Iron Man aesthetic) * Amber neon holograms, glassmorphism Ul, volumetric lighting * Realistic ground-locked perspective tracking * Subtle bloom, reflections, and cinematic depth Color & realism: * Preserve original colors and lighting * Apply only subtle cinematic contrast enhancement * Match scene shadows and reflections Constraints: * Keep all people, aircraft, buildings, sky, and background unchanged * No fake objects, replacements, or cartoon effects * Photorealistic, ultra-detailed, seamless AR compositing * Premium Instagram Reel aesthetic
+Source_City = London
+Source_Airport = Luton
+Destination_City= Albania
+Destination_Airport = Tirana
+Aircraft = Airbus A321neo
+
+Transform my uploaded photo into a cinematic futuristic travel visualization while preserving the original composition, subject, camera angle, perspective, and all real-world elements, enhancing only without replacing or altering existing content; add a hyper-realistic AR holographic travel HUD integrated into the environment visualizing a real commercial flight from the given {Source_City}/ {Source_Airport} to {Destination_City}/{Destination_Airport}.
+
+IMPORTANT INSTRUCTION:
+Automatically resolve and infer the correct IATA airport codes for both source and destination based on the provided city or airport names. If multiple airports exist for a city, select the primary international commercial airport unless context suggests otherwise.
+
+Once resolved, treat them as:
+
+{SOURCE_IATA}
+{DESTINATION_IATA}
+
+Automatically infer and populate all aviation details using realistic flight data for the given an {Aircraft} or equivalent short-haul commercial aircraft, including great-circle distance, estimated flight time (gate-to-gate and airborne), cruise altitude, cruise speed, heading, and airport metadata.
+
+Render a glowing amber/gold holographic map overlay with animated flight path arc, airport markers, and destination pins; display travel data panels showing Departure airport name + IATA, Arrival airport name + IATA, computed distance, computed flight time, aircraft type ({Aircraft}), cruise altitude, cruise speed, and status “En Route”.
+
+Use a premium sci-fi HUD style (Apple Vision Pro × Iron Man aesthetic) with glassmorphism UI, volumetric lighting, neon amber holograms, realistic ground-locked perspective tracking, subtle bloom, reflections, and cinematic depth.
+
+Preserve original colors, lighting, shadows, and reflections with only subtle cinematic enhancement; strictly keep all real-world elements unchanged (no added physical objects, no replacements, no stylization of reality); ensure photorealistic, ultra-detailed, seamless AR compositing with a premium Instagram Reel cinematic look.
